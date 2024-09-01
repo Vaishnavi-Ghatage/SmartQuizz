@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AppTheme">
+        <attr name="colorBackground" format="color"/>
+        <attr name="colorPrimaryText" format="color"/>
+        <attr name="colorText" format="color"/>
+        <attr name="colorHint" format="color"/>
+        <attr name="colorBorder" format="color"/>
+        <attr name="colorButtonBackground" format="color"/>
+        <attr name="colorButtonText" format="color"/>
+        <attr name="colorPrimaryLight" format="color"/>
+    </declare-styleable>
+</resources>

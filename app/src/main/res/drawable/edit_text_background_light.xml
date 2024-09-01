@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF"/> <!-- White background for light mode -->
+    <corners android:radius="8dp"/>
+    <stroke android:color="#D1C4E9" android:width="2dp"/> <!-- Light purple stroke -->
+</shape>

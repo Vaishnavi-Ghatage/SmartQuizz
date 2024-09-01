@@ -1,0 +1,5 @@
+<resources>
+    <color name="background">#121212</color> <!-- Dark mode background -->
+    <color name="text_primary">#E0E0E0</color> <!-- Dark mode text -->
+    <color name="button_background">#5C2C91</color>
+</resources>

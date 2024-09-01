@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SmartQuizz</string>
+    <string name="header_text">Your Result</string>
+
+    <!-- Content Descriptions for Icons -->
+    <string name="total_questions_desc">Total Questions Icon</string>
+    <string name="incorrect_answers_desc">Incorrect Answers Icon</string>
+    <string name="time_taken_desc">Time Taken Icon</string>
+
+    <!-- Text for Total Questions and Answers -->
+    <string name="total_questions">Total Questions</string>
+    <string name="incorrect_answers">Incorrect Answers</string>
+    <string name="time_taken">Time Taken</string>
+    <string name="LogIn">LogIn</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="default_web_client_id" translatable="false">1098597680163-fgersinfmnnkeu8raun2it8im1dhj9m3.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

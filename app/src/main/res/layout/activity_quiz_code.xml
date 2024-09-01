@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilebg">
+
+    <Space
+        android:id="@+id/topSpace"
+        android:layout_width="407dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toTopOf="@id/quizCodeTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="0.1" />
+
+    <TextView
+        android:id="@+id/quizCodeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Quiz Code"
+        android:textColor="@color/purple_dark"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/shareButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topSpace" />
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="175dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#8344DD"
+        android:onClick="shareQuizCode"
+        android:text="Share Quiz Code"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/quizCodeTextView" />
+
+    <Button
+        android:id="@+id/liveScoreboardButton"
+        android:layout_width="222dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#8344DD"
+        android:onClick="viewLiveScoreboard"
+        android:text="View Scoreboard"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/downloadScorecardButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/shareButton"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <Button
+        android:id="@+id/downloadScorecardButton"
+        android:layout_width="13dp"
+        android:layout_height="61dp"
+        android:onClick="downloadScorecard"
+        android:text="Download Scorecard"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/liveScoreboardButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

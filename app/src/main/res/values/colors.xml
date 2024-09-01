@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="background_color">#F5F5F5</color>
+    <color name="textColor">#212121</color>
+    <color name="hintColor">#757575</color>
+    <color name="borderColor">#BDBDBD</color>
+    <color name="switch_thumb_color">#3F51B5</color>
+    <color name="switch_thumb_color_checked">#FF4081</color>
+    <color name="switch_thumb_color_unchecked">#B0BEC5</color>
+    <color name="switch_track_color_checked">#FF4081</color>
+    <color name="switch_track_color_unchecked">#B0BEC5</color>
+
+    <color name="background">#F5F5F5</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+    <color name="buttonBackground">#6200EE</color>
+    <color name="buttonText">#FFFFFF</color>
+
+    <color name="backg_color">#FAFAFA</color>
+    <color name="text_color">#212121</color>
+    <color name="hint_color">#757575</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="button_color">#6200EE</color>
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="purple_800">#1E1E1E</color>
+
+    <!-- Additional colors -->
+
+
+    <color name="holo_blue_dark">#0033A0</color>
+    <color name="holo_red_dark">#C8102E</color>
+    <color name="holo_green_dark">#006400</color>
+    <color name="colorThumbChecked">#4CAF50</color> <!-- Green color for checked state -->
+    <color name="colorThumbUnchecked">#9E9E9E</color> <!-- Gray color for unchecked state -->
+    <color name="colorTrackChecked">#C8E6C9</color> <!-- Light green color for checked state -->
+    <color name="colorTrackUnchecked">#E0E0E0</color>
+
+
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="lavender">#8692f7</color>
+    <color name="grey">#d2d2d2</color>
+
+    <color name="gray">#808080</color>
+    <color name="green">#00FF00</color>
+    <color name="red">#FF0000</color>
+
+
+        <color name="purple_2000">#D1C4E9</color>
+        <color name="purple_5000">#7E57C2</color>
+        <color name="purple_7000">#5C2C91</color>
+        <color name="background2">#F3E5F5</color> <!-- Light mode background -->
+        <color name="text_primary">#212121</color> <!-- Light mode text -->
+        <color name="text">#212121</color>
+        <color name="hint">#757575</color>
+        <color name="button_background">#7E57C2</color>
+        <color name="button_text">#FFFFFF</color>
+    <color name="colorPrimaryLight">#3F51B5</color>
+    <color name="colorHint">#BDBDBD</color>
+    <color name="colorBorder">#7C4DFF</color>
+
+    <color name="purple_light">#EDE7F6</color>
+    <color name="purple">#7E57C2</color>
+    <color name="purple_dark">#512DA8</color>
+    <color name="purple_background">#EDE7F6</color>
+    <color name="dark_purple">#673AB7</color>
+    <color name="light_purple">#E0BBE4</color>
+
+</resources>

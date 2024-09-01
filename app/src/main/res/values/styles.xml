@@ -1,0 +1,15 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_5000</item>
+        <item name="colorPrimaryDark">@color/purple_7000</item>
+        <item name="colorAccent">@color/purple_2000</item>
+        <item name="colorBackground">@color/background</item>
+        <item name="colorPrimaryText">@color/text_primary</item>
+        <item name="colorText">@color/text</item>
+        <item name="colorHint">@color/hint</item>
+        <item name="colorButtonBackground">@color/button_background</item>
+        <item name="colorButtonText">@color/button_text</item>
+
+    </style>
+</resources>

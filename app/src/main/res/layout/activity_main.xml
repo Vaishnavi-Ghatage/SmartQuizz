@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilebg"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/backArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="Back"
+        android:onClick="onBackArrowClicked"
+        android:padding="16dp"
+        android:src="@drawable/ic_back_arrow" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/backArrow"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Quiz"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"
+            android:textColor="@color/dark_purple" />
+
+        <EditText
+            android:id="@+id/quizName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Quiz Name"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:inputType="text"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/hintColor" />
+
+        <EditText
+            android:id="@+id/numQuestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Number of Questions"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:inputType="number"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/hintColor" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:padding="12dp"
+            android:text="Submit"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
